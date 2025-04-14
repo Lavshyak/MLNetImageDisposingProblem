@@ -61,9 +61,9 @@ public class Reproduction
     }
     
     [Fact]
-    public void DontThrows()
+    public void DoesntThrow()
     {
-        // throws when transformerShouldResizeToWidthAndHeight != createRandomImagesWithWidthAndHeight
+        // Doesn't throw when transformerShouldResizeToWidthAndHeight != createRandomImagesWithWidthAndHeight
         const int transformerShouldResizeToWidthAndHeight = 2;
         const int createRandomImagesWithWidthAndHeight = 3;
         
